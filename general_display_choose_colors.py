@@ -830,6 +830,46 @@ def slider_window_4_images(lung_image, local_values, global_values, greens, cmap
                 clr = 'green'
             else:
                 clr = 'white'
+            axes[r, c].text(
+                x=0.5,
+                y=0.18,
+                s=f"P",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.5,
+                y=0.9,
+                s=f"A",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.04,
+                y=0.5,
+                s=f"R",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.96,
+                y=0.5,
+                s=f"L",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
             axes[r,c].text(
                 x=0.5,
                 y=0.1,
@@ -916,6 +956,46 @@ def slider_window_16_images(lung_image, local_values, global_values, greens, cma
                 clr = 'green'
             else:
                 clr = 'white'
+            axes[r, c].text(
+                x=0.5,
+                y=0.18,
+                s=f"P",
+                fontsize=7,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.5,
+                y=0.9,
+                s=f"A",
+                fontsize=7,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.04,
+                y=0.5,
+                s=f"R",
+                fontsize=7,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.96,
+                y=0.5,
+                s=f"L",
+                fontsize=7,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
             axes[r,c].text(
                 x=0.5,
                 y=0.1,
@@ -1000,6 +1080,46 @@ def slider_window_6_images(lung_image, local_values, global_values, greens, cmap
                 clr = 'green'
             else:
                 clr = 'white'
+            axes[r, c].text(
+                x=0.5,
+                y=0.18,
+                s=f"P",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.5,
+                y=0.9,
+                s=f"A",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.04,
+                y=0.5,
+                s=f"R",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.96,
+                y=0.5,
+                s=f"L",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
             axes[r,c].text(
                 x=0.5,
                 y=0.1,
@@ -1088,6 +1208,46 @@ def slider_window_8_images(lung_image, local_values, global_values, greens, cmap
                 clr = 'green'
             else:
                 clr = 'white'
+            axes[r, c].text(
+                x=0.5,
+                y=0.18,
+                s=f"P",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.5,
+                y=0.9,
+                s=f"A",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.04,
+                y=0.5,
+                s=f"R",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
+            axes[r, c].text(
+                x=0.96,
+                y=0.5,
+                s=f"L",
+                fontsize=11,
+                color="white",
+                ha='center',
+                va='top',
+                transform=axes[r, c].transAxes
+            )
             axes[r,c].text(
                 x=0.5,
                 y=0.1,
